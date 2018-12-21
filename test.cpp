@@ -6,7 +6,8 @@ extern "C"
 
 TEST(SetAddTest, AddInsideOfRange)
 {
-  EXPECT_EQ(3, add(1,2));
+  EXPECT_EQ(2, add(1,2));
+  EXPECT_EQ(4, add(2,2));
 }
     
 int main(int argc, char **argv)
